@@ -14,6 +14,7 @@ ul {
   display: flex;
   list-style: none;
   gap: 30px;
+  align-items: center;
 }
 
 .header-container {
@@ -106,7 +107,7 @@ button {
 
 .information {
   width: 1250px;
-  padding: 20px;
+  padding: 20px 20px 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,9 +188,9 @@ button {
 }
 
 .call {
-  margin: 60px;
-  width: 1250px;
-  padding: 30px 70px;
+  margin: 80px;
+  width: 1230px;
+  padding: 20px 70px;
   background-color: #3882f6;
   border-radius: 10px;
   color: white;
