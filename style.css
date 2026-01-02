@@ -8,16 +8,24 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Styles for header */
+
 ul {
   display: flex;
   list-style: none;
   gap: 30px;
 }
 
-.header {
+.header-container {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.header {
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
 }
 
