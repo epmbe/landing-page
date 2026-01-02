@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Styles for header */
+/* Styles for header section */
 
 ul {
   display: flex;
@@ -41,7 +41,7 @@ ul {
   text-decoration: none;
 }
 
-/* Styles for hero */
+/* Styles for hero section */
 
 .hero-container {
   background-color: #1f2937;
@@ -97,7 +97,7 @@ button {
   margin-top: 10px;
 }
 
-/* Styles for information */
+/* Styles for information section */
 
 .information-container {
   display: flex;
@@ -144,4 +144,37 @@ button {
   border: 2px solid #3882f6;
   border-radius: 10px;
   flex-shrink: 0;
+}
+
+/* Styles for quote section */
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  width: 1250px;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote .text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  width: 800px;
+}
+
+.quote .author {
+  align-self: flex-end;
 }
