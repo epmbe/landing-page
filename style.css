@@ -204,3 +204,19 @@ button {
 .call-btn {
   border: 1px solid white;
 }
+
+/* Styling footer section */
+
+.footer-container {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  padding: 20px;
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+}
