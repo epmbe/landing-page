@@ -178,3 +178,29 @@ button {
 .quote .author {
   align-self: flex-end;
 }
+
+/* Styling call section */
+
+.call-container {
+  display: flex;
+  justify-content: center;
+}
+
+.call {
+  margin: 60px;
+  width: 1250px;
+  padding: 30px 70px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-title {
+  font-weight: bold;
+}
+
+.call-btn {
+  border: 1px solid white;
+}
