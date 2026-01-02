@@ -96,3 +96,52 @@ button {
   padding: 8px 30px;
   margin-top: 10px;
 }
+
+/* Styles for information */
+
+.information-container {
+  display: flex;
+  justify-content: center;
+}
+
+.information {
+  width: 1250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 40px;
+}
+
+.information-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-description {
+  text-align: center;
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
